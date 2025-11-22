@@ -1,0 +1,143 @@
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.dark-mode .navbar {
+  background: #1e1e1e;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .nav-links a {
+  color: #ccc;
+}
+
+.dark-mode .nav-links a:hover {
+  color: #4dcdff;
+}
+
+.dark-mode #search-input {
+  background-color: #00000000;
+  color: rgb(253, 251, 251);
+  border-color: #ffffffb4;
+}
+
+.dark-mode .hero-section {
+  background-color: #00000077;
+}
+
+.dark-mode .category-card a,
+.dark-mode .product-card span {
+  color: #4dcdff;
+}
+
+.dark-mode .product-card {
+  background-color: #1e1e1e;
+  color: #eee;
+   box-shadow: 0 3px 8px rgba(255, 255, 255, 0.032);
+}
+
+.dark-mode .newsletter {
+  background-color: #1a1a1a;
+}
+
+.dark-mode .newsletter input,
+.dark-mode .contact-form input,
+.dark-mode .contact-form textarea {
+  background-color: #222;
+  color: #fff;
+  border-color: #444;
+}
+
+.dark-mode .newsletter button,
+.dark-mode .contact-form button,
+.dark-mode .product-info button {
+  background-color: #4dcdff;
+  color: #000;
+}
+
+.dark-mode .team-container{
+  box-shadow: 0 3px 8px rgba(40, 182, 225, 0.152);
+}
+
+.dark-mode footer {
+  background: #f2f2f21e;
+  color: #ccc;
+}
+
+/* Toggle button styling */
+#themeToggle {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+/* Dark Mode for hero section */
+body.dark-mode .hero-section {
+  background-color: #1a1a1a;
+}
+
+body.dark-mode .hero-text h1 {
+  color: #f1f1f1;
+}
+
+body.dark-mode .hero-text .btn {
+  background-color: #4dcdff;
+  color: #000;
+}
+
+body.dark-mode .hero-text .btn:hover {
+  background-color: #36a3d2;
+}
+
+/* Dark Mode for categories */
+body.dark-mode .categories {
+  background-color: #111;
+}
+
+body.dark-mode .category-card h3 {
+  color: #e0e0e0;
+}
+
+body.dark-mode .category-card a {
+  color: #4dcdff;
+}
+
+body.dark-mode .page-section h2{
+  color: rgba(255, 255, 255, 0.873);
+}
+
+
+/* 🌓 In DARK MODE: make hero-section light instead of black */
+body.dark-mode .hero-section {
+  background-color: #ffffffa6; /* light gray/white background */
+}
+
+body.dark-mode .hero-text h1 {
+  color: #111111d6; /* dark text for light bg */
+  background-color: #00000000;
+}
+
+body.dark-mode .hero-text span {
+  color: #1795c3;
+}
+
+body.dark-mode .hero-text .btn {
+  background-color: #1ea7d8;
+  color: white;
+}
+
+body.dark-mode .hero-text .btn:hover {
+  background-color: #2caddca7;
+}
+
+.dark-mode .store-location  .map-container {
+  background-color: #28282833;
+  margin-top: 20px;
+  border-radius: 17px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
